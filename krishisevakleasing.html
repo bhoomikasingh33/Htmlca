@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Join Our Leasing Services - KrishiSevak</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #e8f5e9;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background: #2e7d32;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background: #388e3c;
+        }
+        nav a {
+            color: #fff;
+            padding: 14px 20px;
+            text-decoration: none;
+            text-align: center;
+        }
+        nav a:hover {
+            background: #4caf50;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        .section {
+            padding: 20px 0;
+        }
+        .section h2 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .form-container {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+        .form-container form {
+            background: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 100%;
+            max-width: 500px;
+            margin: 10px;
+        }
+        .form-container form div {
+            margin-bottom: 15px;
+        }
+        .form-container form input, .form-container form textarea {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .form-container form input[type="submit"] {
+            background: #2e7d32;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+        }
+        .form-container form input[type="submit"]:hover {
+            background: #388e3c;
+        }
+        footer {
+            background: #2e7d32;
+            color: #fff;
+            text-align: center;
+            padding: 2px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        button{
+            align-self: center;
+            width: 100px;
+            border-radius: 15px;
+            background-color: #2e7d32;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Krishi Sevak</h1>
+        <p>Your Partner in Agriculture</p>
+    </header>
+    <nav>
+        <a href="krishisevak.html">Home</a>
+        <a href="photos.html">Photos</a>
+        <a href="krishisevakstories.html">Stories</a>
+        <a href="krishisevakleasing.html">Leasing</a>
+        <a href="krishisevakblog.html">Blog</a>
+        <a href="krishisevakcontact.html">Contact</a>
+    </nav>
+    <div class="container">
+        <section id="join" class="section">
+            <h2>Join Our Leasing Services</h2>
+            <div class="form-container">
+                <form >
+                    <div>
+                        <label for="name">Full Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div>
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div>
+                        <label for="phone">Phone Number</label>
+                        <input type="tel" id="phone" name="phone" required>
+                    </div>
+
+                    <div>
+                        <a href="krishisevakend.html"><button>submit</button></a> 
+                    </div>
+                </form>
+                <form action="login.php" method="post">
+                    <h3>Existing User</h3>
+                    <div>
+                        <label for="existing-email">Email</label>
+                        <input type="email" id="existing-email" name="email" required>
+                    </div>
+                    <div>
+                        <label for="existing-password">Password</label>
+                        <input type="password" id="existing-password" name="password" required>
+                    </div>
+                    <div>
+                        <a href="krishisevakend.html"><button>submit</button></a>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </div>
+    <footer>
+        <p>© 2024 KrishiSevak. All rights reserved.</p>
+    </footer>
+</body>
+</html>
